@@ -125,4 +125,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionViz1()
+    {
+        return $this->render('viz1');
+    }
+
+    public function actionViz2()
+    {
+        return $this->render('viz2');
+    }
 }
